@@ -1,0 +1,16 @@
+{
+  "name": "weather-time-dashboard",
+  "version": "1.0.0",
+  "description": "Node.js dashboard comparing weather and local time for Manchester, Perth, and Adelaide",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "luxon": "^3.5.0"
+  }
+}
